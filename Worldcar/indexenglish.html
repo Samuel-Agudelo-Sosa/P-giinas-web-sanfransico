@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldcar</title>
+    <link rel="stylesheet" href="worldcar.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+<img src="cocacola.png" class="Publicidad" height="150px" width="500px">
+<img src="olimpica.jpg" class="Publicidad" height="150px">
+<img src="platzi.png" class="Publicidad" height="150px" width="410px">
+<img src="star.jfif" class="Publicidad" height="150px" width="409px">
+    
+<a href="Index.html"><img src="logo.png" width="230px" height="90px" id="icono"></a>
+    <a href="productos.html" class="enlacesnav" id="alquilernav">Rent</a> 
+    <img src="personaconduciendo.jpg" width="700px" height="400px" id="imagencentral">
+    <select name="Países" id="paises" size="1">
+        <option value="United States">United States</option>
+        <option value="Colombia">Colombia   </option>
+        <option value="Brazil">Brasil</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Chile">Chile</option>
+        <option value="Alemania">Germania</option>
+        <option value="Francia">France</option>
+        <option value="Italia">Italia</option>
+        <option value="England">England</option>
+        <option value="España">España</option>
+        
+    </select>
+    
+    <a  href="Info.html" class="enlacesnav" id="quienessomosnav">about us</a>
+        
+
+        <h2 id="frasesita">
+            drive a tesla: <label style="color:gainsboro; font-size: 20px;">In worldcar you will drive the car you have always dreamed of</label>   <a id="vermas" href="productos.html">See more></a>
+        </h2>
+        <div id="compras">
+            <div id="tipovehiculo">
+                <h2>¿Qué tipo de vehículo?</h2>
+                <button style="height: 40px; background-color: green;" id="carroboton">
+                    <img src="COCHE.png" alt="" style="display: inline-block;">Carro
+                </button>
+            <button style="height: 40px; background-color: gray;" id="camionboton">
+                <img src="Camion.png" alt="">Camión
+            </button>
+            <button style="height: 40px; background-color: gray;" id="deportivoboton">
+                <img src="Deportivo.png" alt="">Deportivo
+            </button>
+            </div>   
+        <div id="oficina">
+            <h2>Oficina de recogida y devolución</h2>
+          
+            <select name="oficinas" id="oficinas" size="1">
+                <optgroup label="Brazil">
+                    <option value=" Internacional de Guarulhos">Internacional de Guarulhos</option>
+                    <option value="	 Internacional El Dorado"> Internacional El Dorado</option>
+                </optgroup>
+                <optgroup label="Portugal">
+                    <option value=" Portela">Portela</option>
+                    <option value=" Francisco Sá Carneiro">Francisco Sá Carneiro</option>
+                </optgroup>
+                <optgroup label="Argentina">
+                    <option value="Internacional Ezeiza">AInternacional Ezeiza</option>
+                    <option value=" Internacional Ing. Ambrosio Taravella"> Internacional Ing. Ambrosio Taravella</option>
+                </optgroup>
+                <optgroup label="Chile">
+                    <option value="Santiago de Chile">Santiago de Chile</option>
+                    <option value="Antofagasta">Antofagasta</option>
+                </optgroup>
+                <optgroup label="Alemania">
+                    <option value="Fráncfort del Meno">Fráncfort del Meno</option>
+                    <option value="Mannheim">Mannheim</option>
+                </optgroup>
+                <optgroup label="Francia">
+                    <option value="Charles de Gaulle">Charles de Gaulle</option>
+                    <option value="Nice-Côte d'Azur Airport">Nice-Côte d'Azur Airport</option>
+                </optgroup>
+                <optgroup label="Italia">
+                    <option value="Milán-Malpensa">Charles de Gaulle</option>
+                    <option value="Bérgamo ">Nice-Côte d'Azur Airport</option>
+                </optgroup>
+                <optgroup label="Inglaterra">
+                    <option value="Heathrow">Charles de Gaulle</option>
+                    <option value="Gatwick">Nice-Côte d'Azur Airport</option>
+                </optgroup>     
+                <optgroup label="España">
+                    <option value="Adolfo Suárez Madrid-Barajas">Adolfo Suárez Madrid-Barajas</option>
+                    <option value="Josep Tarradellas Barcelona-El Prat">Josep Tarradellas Barcelona-El Prat</option>
+                </optgroup>   
+                <optgroup label="Estados Unidos">
+                    <option value=" Internacional de Los Ángeles">Adolfo Suárez Madrid-Barajas</option>
+                    <option value="Internacional Hartsfield‑Jackson">Josep Tarradellas Barcelona-El Prat</option>
+                </optgroup>
+            </select>
+        </div>
+        <div id="fecha1">
+            <h2>Fecha y hora de recogida</h2>
+         
+            <input type="date" id="date1">
+            <input type="time" id="time1">
+        </div> 
+            <div id="fecha2">
+                <h2>Fecha y hora de devolución</h2>
+                <input type="date" id="date2">
+                <input type="time" id="time2">
+            </div>
+            <div id="buscar"> 
+                <button id="botonbuscar">Buscar</button>
+            </div>
+    <div id="contacto">
+        <button id="contactanos" onclick="location.href='mailto:samuelagudelo4312@gmail.com?Subject=Interesado%20en%20el%20siguiente%carro:'">Contact us</button> 
+    </div>
+   
+</h2>
+
+</body>
+<script  src="Worldcar.js"></script>
+</html>

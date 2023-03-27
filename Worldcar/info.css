@@ -1,0 +1,52 @@
+body{
+    background-image: url(backgroudnacerca.jpg);
+}
+
+
+ul
+{
+     background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+margin-top: -25px;
+margin-left: -25px;
+   
+}
+li
+{
+ display: inline-block;
+}
+
+a
+{
+position: relative;
+right: -750px;
+display: inline-block;
+color: white;
+padding: 14px;
+margin: 5px;
+text-decoration: none;
+font-family: arial;
+font-size: 20px;
+}
+a:hover{
+background-color: #04AA6D;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+p
+{
+    font-size: 20px;
+}
+
+div
+{
+    position: relative;
+    top: 70px;;
+}

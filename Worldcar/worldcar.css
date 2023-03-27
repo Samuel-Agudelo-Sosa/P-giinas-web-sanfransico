@@ -1,0 +1,204 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    text-align: center;
+}
+
+.enlacesnav{
+font-size: 25px;
+font-family: 'Roboto', sans-serif;
+color: white;
+text-decoration: none;
+position: relative;
+top: -350px;
+
+}
+
+ 
+
+ 
+
+
+.Publicidad
+{
+position: relative;
+top: -10px;
+}
+
+ #imagencentral
+ {
+    position: relative;
+    top: -10px;
+    right: -230px;
+ }
+ #icono
+ {
+    position: relative;
+    top: -300px;
+    right: -115px;
+ }
+
+ #alquilernav
+ {
+    position: relative;
+    right: -170px;
+ }
+
+ #quienessomosnav
+ {
+    position: relative;
+    right: -400px;
+
+ }
+
+ #paises
+ {
+    position: relative;
+top: -350px;
+right: -300px; 
+border: black;
+background-color:white;
+color: black;
+text-align: center;
+border-style: double;
+
+font-size: 25px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+ #frasesita
+ {
+    background-color: gray;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    right: -350px;
+    font-size: 30px;
+
+ }
+
+ #compras
+ {
+    border: solid;
+    border-color: blue;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    right: -350px;
+    height: 285px;
+  
+ }
+ 
+ #tipovehiculo
+ {
+    font-size: 12px;
+  padding-left: 40px;
+ }
+
+ #oficina
+{
+padding-left: 40px;
+padding-top: 5px;
+}
+
+#fecha1{
+position: relative;
+padding-left: 450px;
+top: -115px;
+}
+
+#fecha2
+{
+position: relative;
+padding-left: 900px;
+top: -230px;
+}
+
+#buscar
+{
+   position: relative;
+   top: -180px;
+    padding-left: 1100px;
+    z-index: 1;
+  
+}
+
+#botonbuscar
+{
+    background-color: yellow;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-color:red;
+    font-size: 20px;
+ position: relative;
+    left: -120px;
+    top: -15px;
+}
+
+#contacto
+{
+    position: fixed;
+    left: 40px;
+    bottom: 50px;
+    
+}
+
+#contactanos
+{
+    background-color: greenyellow;
+    color: green;
+    font-size: 25px;
+}
+
+#vermas
+{
+    padding-left: 465px;
+    color: white;
+    text-decoration: none;
+}
+
+#oficinas
+{
+   position: relative;
+   top: -5px;
+   width: 300px;
+   height: 40px;
+   z-index: 1;
+}
+
+#date1
+{
+   position: relative;
+height: 40px;
+width: 200px;
+z-index: 3;
+}
+
+#time1
+{
+   position: relative;
+   height: 40px;
+   width: 100px;
+   z-index: 2;
+}
+#date2
+{
+height: 40px;
+width: 200px;
+z-index: 1;
+}
+
+#time2
+{
+   height: 40px;
+   width: 100px;
+   z-index: 1;
+}
