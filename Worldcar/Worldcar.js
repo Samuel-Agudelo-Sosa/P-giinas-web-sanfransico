@@ -25,6 +25,20 @@ else
     alert("Si estos no son sus datos actualizelos a continuación")
 }
     }
+    else if(seleccionado=="camion" || seleccionado=="deportivo"){
+        alert("Su vehículo seleccionado fue un " + seleccionado + " encontrado en la oficina: " + oficina.value);
+        alert("La fecha para recoger su vehículo es: " + date1.value + ".La hora es " + time1.value);
+        alert("La fecha para recoger su vehículo es: " + date2.value + ".La hora es " + time2.value);
+        var confirmar = parseInt(prompt("Si estos sun datos marque 1, de lo contrario marque 0"));
+        if(confirmar == 1)
+        {
+            window.open("https://www.bancolombia.com/personas","_self");
+    }
+    else
+    {
+        alert("Si estos no son sus datos actualizelos a continuación")
+    }
+        }
 
 
 })
